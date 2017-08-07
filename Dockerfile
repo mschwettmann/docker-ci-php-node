@@ -31,19 +31,19 @@ RUN wget -q -O /tmp/libpng12.deb http://mirrors.kernel.org/ubuntu/pool/main/libp
 # PHP
 RUN LC_ALL=en_US.UTF-8 add-apt-repository ppa:ondrej/php
 RUN apt-get update ; apt-get install -y --allow-unauthenticated \
-    php7.1 \
-    php7.1-curl \
-    php7.1-gd \
-    php7.1-dev \
-    php7.1-xml \
-    php7.1-bcmath \
-    php7.1-mysql \
-    php7.1-mbstring \
-    php7.1-zip \
-    php7.1-sqlite \
-    php7.1-soap \
-    php7.1-json \
-    php7.1-intl \
+    php7.0 \
+    php7.0-curl \
+    php7.0-gd \
+    php7.0-dev \
+    php7.0-xml \
+    php7.0-bcmath \
+    php7.0-mysql \
+    php7.0-mbstring \
+    php7.0-zip \
+    php7.0-sqlite \
+    php7.0-soap \
+    php7.0-json \
+    php7.0-intl \
     php-xdebug
 RUN command -v php
 

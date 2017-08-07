@@ -9,7 +9,7 @@
   * rsync
   * curl
   * wget
-  * PHP 7.1
+  * PHP 7.0
     * MySQL
     * sqlite
     * Xdebug
