@@ -44,8 +44,8 @@ RUN apt-get update ; apt-get install -y --allow-unauthenticated \
     php7.1-soap \
     php7.1-json \
     php7.1-intl \
-    php7.1-dom \
-    php-xdebug
+    php7.1-xdebug
+RUN apt-get remove -y php7.2-common
 RUN command -v php
 
 # Composer
