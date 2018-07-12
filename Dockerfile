@@ -44,6 +44,7 @@ RUN apt-get update ; apt-get install -y --allow-unauthenticated \
     php7.1-soap \
     php7.1-json \
     php7.1-intl \
+    php7.1-dom \
     php-xdebug
 RUN command -v php
 
