@@ -61,7 +61,7 @@ RUN apt-get install -y \
     libnss3 \
     lsb-release \
     xdg-utils \
-    wget
+    unzip
 
 # PHP
 RUN LC_ALL=en_US.UTF-8 add-apt-repository ppa:ondrej/php
