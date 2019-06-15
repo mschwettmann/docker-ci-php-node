@@ -9,7 +9,7 @@
   * rsync
   * curl
   * wget
-  * PHP 7.0
+  * PHP 7.2
     * MySQL
     * sqlite
     * Xdebug
@@ -22,5 +22,5 @@
     * intl
   * Composer
   * PHPUnit
-  * Node.js 8.x
+  * Node.js 9.x
   * Yarn
