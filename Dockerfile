@@ -80,7 +80,7 @@ RUN apt-get update ; apt-get install -y --allow-unauthenticated \
     php7.1-json \
     php7.1-intl \
     php7.1-xdebug
-RUN apt-get remove -y php7.2-common
+RUN apt-get remove -y php7.2-common php7.3-common
 RUN command -v php
 
 # Composer
