@@ -1,7 +1,7 @@
 # Docker image for Continuous Integration
 
 ## System information
-  * Ubuntu 16.04
+  * Ubuntu 18.04
 
 ## Installed packages
   * ssh
@@ -9,7 +9,7 @@
   * rsync
   * curl
   * wget
-  * PHP 7.2
+  * PHP 7.4
     * MySQL
     * sqlite
     * Xdebug
@@ -20,7 +20,7 @@
     * xml
     * bcmath
     * intl
-  * Composer
+  * Composer v2
   * PHPUnit
-  * Node.js 9.x
+  * Node.js 16.x
   * Yarn

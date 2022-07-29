@@ -95,7 +95,7 @@ RUN command -v php
 RUN curl -sS https://getcomposer.org/installer | php -- --1
 RUN mv composer.phar /usr/local/bin/composer && \
     chmod +x /usr/local/bin/composer && \
-    composer self-update
+    composer self-update --2
 RUN command -v composer
 
 # Node.js
